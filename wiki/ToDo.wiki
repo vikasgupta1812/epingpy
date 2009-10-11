@@ -13,5 +13,5 @@ ToDo list for the ePing.py project. Also it should show some kind of progress by
   * ~~Perhaps a more advanced log system, based on XML or SQLite~~ edit: just found Python Logging module, should be sufficient for now.
   * Perhaps have it running as a service/daemon
   * ~~Have an easy configuration option/file so no reading through code is required~~ edit: added
-  * ~~Put the timeout-values (default and long) in configfile too~~edit: done, both are now set in the config file.
+  * ~~Put the timeout-values (default and long) in configfile too~~ edit: done, both are now set in the config file.
   * ~~When only default timeout is hit, put it in logfile. Email notification only if high timeout is also reached.~~ edit: done. When an short timeout is reached, only an entry will be made to the log. When a longer timeout is reached, or a different kind of error is found, then an e-mail notification is also send (log still gets entry).
