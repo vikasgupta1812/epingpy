@@ -7,8 +7,10 @@ ToDo list for the ePing.py project. Also it should show some kind of progress by
 
 = Details =
   * Create a logo
+  * Send a log summary once a day by e-mail
+  * Create nice graphs or something to show status history 
   * Make the content of the e-mail customisable in the configfile. 
-  * Make the urlchecking classes threaded. Right now all the urls are checked after each other. In the event that 15 sites reach a long timeout with timeout values of 5+30 seconds, the check itself will require at least 15`*`(5+30)= 8,75 minutes. This is not really practical (because sometimes I actually get into this situation). By making the UrlChecker class threaded, the total amount of time it takes is decided by the timeout values alone, and not influenced by the amount of urls. 
+  * ~~Make the urlchecking classes threaded. Right now all the urls are checked after each other. In the event that 15 sites reach a long timeout with timeout values of 5+30 seconds, the check itself will require at least 15`*`(5+30)= 8,75 minutes. This is not really practical (because sometimes I actually get into this situation). By making the UrlChecker class threaded, the total amount of time it takes is decided by the timeout values alone, and not influenced by the amount of urls. ~~ edit: done
   * ~~Add ping support :-)~~ edit: seems actually a little bit pointless
   * ~~Perhaps a more advanced log system, based on XML or SQLite~~ edit: just found Python Logging module, should be sufficient for now.
   * Perhaps have it running as a service/daemon
