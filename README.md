@@ -7,8 +7,8 @@ server itself remains pingable. The sites just don't give any output.
 This small program checks the urls, and reports any HTTP error status or timeout
 problems.
 With any suggestions or comments, contact me at:
-    qrazi.sivlingworkz [a] gmail.com
-    qrazi.blogspot.com
+    ~~qrazi.sivlingworkz [a] gmail.com~~
+    ~~qrazi.blogspot.com~~
     code.google.com/p/epingpy
 
 ### Installation:
